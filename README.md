@@ -7,7 +7,7 @@ Package pkcs12 provides some Go implementations of PKCS#12.
 This implementation is distilled from https://tools.ietf.org/html/rfc7292 and referenced documents.
 It is intented for decoding P12/PFX-stored certificate+key for use with the crypto/tls package. 
 
-## Example
+## Example  
 
 ```go
 p12, err := base64.StdEncoding.DecodeString(`base64-encoded-pfx-file`)
